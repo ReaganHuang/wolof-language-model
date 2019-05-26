@@ -6,8 +6,11 @@ Following are the steps of the whole process
   * run WikiExtractor.py and get html files
   * save all html files in one: `cat * > allhtml.html`
 - clean the Wikipedia data (with cld2)
-
+  * run clean_text.py to clean Wikipedia data `python clean_text.py all.html  > cleaned_Wiki.txt`
 - retrieve other data from https://github.com/ReaganHuang/ALFFA_PUBLIC/tree/master/ASR/WOLOF/LM
 - modeling using NLTK
+  * statistical language model and its predictions
 - validating using perplexity, which is a built-in function of nltk.lm
+  * performance of a specific model
+  * compare models that are built with different data source
 
