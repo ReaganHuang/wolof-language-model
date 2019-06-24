@@ -16,7 +16,7 @@ Following are the steps of the process of a statistical language model and a neu
   * performance of a specific model
   * compare models that are built with different data source
 
-## Neural Network  
+## RNN based Language Model
 - **scrape data from Wolof Wikipedia by article** (reference: https://github.com/fastai/fastai/tree/master/courses/dl2/imdb_scripts)  
 - **create labels**
   * scrape the translation for Wolof Wikipedia articles
