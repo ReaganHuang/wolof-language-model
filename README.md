@@ -22,7 +22,8 @@ Following are the steps of the process of a statistical language model and a neu
   * scrape the translation for Wolof Wikipedia articles
   * Label each article as "geo" or "nongeo"
 - **build an RNN based language model**
-  * scrape the translation for Wolof Wikipedia articles
-  * Label each article as "geo" or "nongeo"
+  * scrape the translation for Wolof Wikipedia articles `python online_translator.py WikiArticleWithTitle.csv`
+  * Label each article as "geo" or "nongeo" manually according to the title translation
+  * Language model with fast.ai
 - **prediction and validation** 
 
