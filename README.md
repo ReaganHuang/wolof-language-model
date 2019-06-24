@@ -3,7 +3,7 @@ Wolof (/ˈwoʊlɒf/) is a language of Senegal. About 12 million people speak thi
 
 Following are the steps of the process of a statistical language model and a neural network.
 
-## Statistical Language Model
+### Statistical Language Model
 - **scrape data from wolof Wikipedia** (reference: https://github.com/attardi/wikiextractor)
   * run WikiExtractor.py and get html files
   * save all html files in one: `cat * > allhtml.html`
@@ -16,7 +16,7 @@ Following are the steps of the process of a statistical language model and a neu
   * performance of a specific model
   * compare models that are built with different data source
 
-## RNN based Language Model
+### RNN based Language Model
 - **scrape data from Wolof Wikipedia by article** (reference: https://github.com/fastai/fastai/tree/master/courses/dl2/imdb_scripts)  
 - **create labels**
   * scrape the translation for Wolof Wikipedia articles
